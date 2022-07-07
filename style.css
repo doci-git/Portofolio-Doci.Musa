@@ -62,7 +62,6 @@ nav {
 
 /*button nav*/
 .nav-btn {
-  justify-content: space-between;
   cursor: pointer;
   z-index: 1;
   background-color: transparent;
@@ -71,7 +70,6 @@ nav {
 
 /*link style mobile view*/
 .hoverlink {
-  justify-content: space-between;
   padding: 0.9rem;
   margin: 10px;
   font-size: 1.8rem;
@@ -80,7 +78,7 @@ nav {
 }
 
 .active a {
-  padding-bottom: 1.2rem;
+  padding-bottom: 1rem;
   background-color: #db9b07;
   border-radius: 0px 0px 10px 10px;
   transition: ease 0.5s;
@@ -317,10 +315,10 @@ p span {
 
 /* about me txt */
 .abouttext {
+  z-index: -1;
   margin-left: 1.8rem;
   font-size: 4.5rem;
   color: #db9b076e;
-  z-index: -1;
   position: absolute;
 }
 
@@ -376,6 +374,7 @@ animation h2 */
 .h1aboutname {
   font-size: 2.5rem;
 }
+
 .h2aboutname {
   font-size: 1.8rem;
 }
@@ -495,7 +494,7 @@ animation h2 */
 
 /* about me descriprion paragraf */
 .about-me {
-  word-spacing: 2px;
+  word-spacing: 1px;
   font-size: 1.2rem;
   text-align: justify;
   padding-top: 10px;
@@ -532,8 +531,6 @@ animation h2 */
   font-size: 4rem;
   color: #db9b076e;
   padding-bottom: 2.5rem;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 /*container */
@@ -787,8 +784,8 @@ animation h2 */
 @media screen and (max-width: 365px) {
   .hoverlink {
     padding: 0.5rem;
-    margin: 10px;
-    font-size: 1.6rem;
+    margin: 14px;
+    font-size: 1.4rem;
     text-decoration: none;
     color: white;
   }
@@ -802,7 +799,7 @@ animation h2 */
 
   .active a {
     padding: 0.8rem;
-    padding-bottom: 1.4rem;
+    padding-bottom: 1.1rem;
   }
 
   /*section2 about text*/
