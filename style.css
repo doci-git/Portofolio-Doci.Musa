@@ -558,6 +558,19 @@ animation h2 */
   width: 100%;
 }
 
+.image-container span a{
+  color: #f3f3f3;
+  position: absolute;
+  margin-left: 20px;
+  padding-top: 10px;
+ font-size: 1.2rem;
+ text-decoration: underline;
+}
+
+hr{
+  border: none;
+}
+
 /*button*/
 .btn-container {
   position: relative;
