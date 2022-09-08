@@ -592,11 +592,11 @@ hr {
 }
 
 #prev {
-  left: 20%;
+  left: 25%;
 }
 
 #next {
-  right: 20%;
+  right: 25%;
 }
 
 .about-project {
@@ -1600,16 +1600,16 @@ hr {
 
   /*link style mobile view*/
   .hoverlink1 {
-    padding: 1.9rem;
-    font-size: 1.8rem;
+    padding: 2rem;
+    font-size: 2.2rem;
     text-decoration: none;
     color: white;
   }
 
   .hoverlink1:hover {
-    padding: 2rem;
+   padding: 1.8rem;
     border-bottom: solid #db9b07;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 20px 20px;
     transition: ease 0.9s;
   }
   .slide-top {
