@@ -515,7 +515,8 @@ animation h2 */
 /* about email */
 .mail {
   color: white;
-  padding-left: 20px;
+  padding-left: 10px;
+  font-size: 25px;
 }
 
 /*section3*/
@@ -1108,8 +1109,8 @@ hr{
   }
 
   .hoverlink1:hover {
-    padding: 2rem;
-    background-color: #db9b07;
+    padding: 1.9rem;
+    border-bottom: solid #db9b07;
     border-radius: 10px 10px 10px 10px;
     transition: ease 0.9s;
   }
