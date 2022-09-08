@@ -107,6 +107,7 @@ nav {
 }
 
 @keyframes bounce2 {
+
   0%,
   20%,
   50%,
@@ -129,6 +130,7 @@ nav {
 }
 
 @keyframes bounce2 {
+
   0%,
   20%,
   50%,
@@ -151,6 +153,7 @@ nav {
 }
 
 @keyframes bounce2 {
+
   0%,
   20%,
   50%,
@@ -170,8 +173,7 @@ nav {
 
 /*all social homepage animation*/
 .fa-bands {
-  -webkit-animation: slide-in-top 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s
-    both;
+  -webkit-animation: slide-in-top 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s both;
   animation: slide-in-top 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s both;
 }
 
@@ -191,8 +193,7 @@ nav {
 
 /* img logo homepage slide*/
 .logo1 {
-  -webkit-animation: slide-in-top 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s
-    both;
+  -webkit-animation: slide-in-top 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s both;
   animation: slide-in-top 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s both;
 }
 
@@ -559,16 +560,16 @@ animation h2 */
   width: 100%;
 }
 
-.image-container span a{
+.image-container span a {
   color: #f3f3f3;
   position: absolute;
   margin-left: 20px;
   padding-top: 10px;
- font-size: 1.2rem;
- text-decoration: underline;
+  font-size: 1.2rem;
+  text-decoration: underline;
 }
 
-hr{
+hr {
   border: none;
 }
 
@@ -1025,6 +1026,10 @@ hr{
     border-radius: 0px 0px 10px 10px;
     transition: ease 0.5s;
   }
+  .slide-top {
+    width: 21rem;
+    transition: ease 1s;
+  }
 
   .abouttext {
     margin-left: 8.5rem;
@@ -1115,6 +1120,10 @@ hr{
     transition: ease 0.9s;
   }
 
+  .slide-top {
+    width: 25rem;
+  }
+
   /* social icon*/
   .social-logo {
     padding-top: 3rem;
@@ -1168,6 +1177,7 @@ hr{
     padding-top: 20px;
   }
 }
+
 @media screen and (max-width: 1200px) and (min-width: 901px) {
   .nav-container {
     display: none;
@@ -1205,6 +1215,9 @@ hr{
     border-bottom: solid #db9b07;
     border-radius: 10px 10px 10px 10px;
     transition: ease 0.9s;
+  }
+  .slide-top {
+    width: 25rem;
   }
 
   /* social icon*/
@@ -1333,6 +1346,9 @@ hr{
     border-radius: 10px 10px 10px 10px;
     transition: ease 0.9s;
   }
+  .slide-top {
+    width: 25rem;
+  }
 
   /* social icon*/
   .social-logo {
@@ -1399,7 +1415,7 @@ hr{
 
   .example {
     position: absolute;
-    top: 60px;
+    top: 90px;
     left: 22rem;
     padding: 15px;
     width: 45%;
@@ -1465,11 +1481,14 @@ hr{
     transition: ease 0.9s;
   }
 
+  .slide-top {
+    width: 30rem;
+  }
   /* social icon*/
   .social-logo {
     padding-top: 3rem;
-    padding-left: 3rem;
-    font-size: 1.5rem;
+    padding-left: 5rem;
+    font-size: 1.8rem;
   }
 
   /* about me txt */
@@ -1530,8 +1549,139 @@ hr{
 
   .example {
     position: absolute;
-    top: 60px;
+    top: 110px;
     left: 27rem;
+    padding: 15px;
+    width: 45%;
+  }
+
+  .example i {
+    font-size: 2.1rem;
+    padding: 15px;
+    padding-top: 45px;
+  }
+
+  .example p {
+    padding-top: 140px;
+  }
+
+  .footer p {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 3001px) and (min-width: 2001px) {
+  nav {
+    text-align: center;
+    background-color: #04040524;
+  }
+
+  .nav-container {
+    display: none;
+  }
+
+  .nav-container1 {
+    justify-content: left;
+    box-shadow: rgb(2 2 2) 0px 0px 20px 1px;
+    padding: 2.4rem;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+
+  .nav-btn1 {
+    padding-top: 1rem;
+    display: inline;
+    cursor: pointer;
+    z-index: 1;
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  /*link style mobile view*/
+  .hoverlink1 {
+    padding: 1.9rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: white;
+  }
+
+  .hoverlink1:hover {
+    padding: 2rem;
+    border-bottom: solid #db9b07;
+    border-radius: 10px 10px 10px 10px;
+    transition: ease 0.9s;
+  }
+  .slide-top {
+    width: 35rem;
+  }
+  /* social icon*/
+  .social-logo {
+    padding-top: 3rem;
+    padding-left: 8rem;
+    font-size: 1.8rem;
+  }
+
+  /* about me txt */
+  .abouttext {
+    margin-left: 1.8rem;
+    font-size: 6rem;
+    color: #db9b076e;
+    position: relative;
+  }
+
+  /* about img */
+  .imgabout {
+    width: 18%;
+  }
+
+  /* about me descriprion h2 */
+  .h2aboutname {
+    font-size: 3rem;
+  }
+
+  .h1aboutname {
+    font-size: 4rem;
+  }
+
+  .abouttext {
+    -webkit-animation: jello-horizontal 1s 0.8s both;
+    animation: jello-horizontal 1s 0.8s both;
+  }
+
+  .about-me {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-me1 {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .worktext {
+    font-size: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .contacttext {
+    font-size: 5rem;
+  }
+
+  .cellimage {
+    display: none;
+  }
+
+  .pcimage {
+    width: 50%;
+  }
+
+  .example {
+    position: absolute;
+    top: 150px;
+    left: 35rem;
     padding: 15px;
     width: 45%;
   }
@@ -1549,4 +1699,5 @@ hr{
   .footer p {
     font-size: 2rem;
   }
+
 }
