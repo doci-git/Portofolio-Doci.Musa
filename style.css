@@ -2,6 +2,7 @@ html {
   scroll-behavior: smooth;
   display: table;
   width: 100%;
+  -ms-content-zooming: none;
 }
 
 *,
