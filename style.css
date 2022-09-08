@@ -263,11 +263,10 @@ p span {
   border-radius: 5px;
   border: none;
   color: white;
-  padding: 10px 30px;
+  padding: 5px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 30px;
   margin: 4px 2px;
   cursor: pointer;
   -webkit-transition-duration: 0.4s;
@@ -292,7 +291,8 @@ p span {
 
 .resume {
   color: white;
-  padding-left: 20px;
+  padding-left: 10px;
+  font-size: 25px;
 }
 
 .button:hover {
