@@ -1202,7 +1202,7 @@ hr{
 
   .hoverlink1:hover {
     padding: 2rem;
-    background-color: #db9b07;
+    border-bottom: solid #db9b07;
     border-radius: 10px 10px 10px 10px;
     transition: ease 0.9s;
   }
@@ -1329,7 +1329,7 @@ hr{
 
   .hoverlink1:hover {
     padding: 2rem;
-    background-color: #db9b07;
+    border-bottom: solid #db9b07;
     border-radius: 10px 10px 10px 10px;
     transition: ease 0.9s;
   }
@@ -1460,7 +1460,7 @@ hr{
 
   .hoverlink1:hover {
     padding: 2rem;
-    background-color: #db9b07;
+    border-bottom: solid #db9b07;
     border-radius: 10px 10px 10px 10px;
     transition: ease 0.9s;
   }
