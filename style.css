@@ -560,10 +560,11 @@ animation h2 */
   left: 0;
   top: 0;
   width: 100%;
+  height: 150px;
 }
 
 .image-container span a {
-  color: #f3f3f3;
+  color: #070707;
   position: absolute;
   margin-left: 20px;
   padding-top: 10px;
@@ -582,7 +583,7 @@ hr {
 }
 
 .btn {
-  margin-top: 10px;
+  margin-top: 70px;
   position: absolute;
   bottom: -80;
   background-color: #db9b07;
@@ -607,7 +608,7 @@ hr {
 
 /*description tecnology*/
 .h2aboutwork {
-  padding-top: 6rem;
+  padding-top: 7.9rem;
   color: white;
   font-size: 2.2rem;
 }
@@ -833,7 +834,7 @@ hr {
   }
 
   .h2aboutwork {
-    padding-top: 6rem;
+    padding-top: 6.4rem;
     color: white;
     font-size: 2.2rem;
   }
@@ -1139,6 +1140,9 @@ hr {
     color: #db9b076e;
     position: relative;
   }
+  .h2aboutwork {
+    padding-top: 11rem;
+  }
 
   .worktext {
     font-size: 5rem;
@@ -1249,6 +1253,9 @@ hr {
 
   .h1aboutname {
     font-size: 4rem;
+  }
+    .h2aboutwork {
+    padding-top: 12rem;
   }
 
   .abouttext {
@@ -1379,6 +1386,9 @@ hr {
 
   .h1aboutname {
     font-size: 4rem;
+  }
+  .h2aboutwork {
+    padding-top: 13rem;
   }
 
   .abouttext {
@@ -1515,6 +1525,9 @@ hr {
     font-size: 4rem;
   }
 
+  .h2aboutwork {
+    padding-top: 13rem;
+  }
   .abouttext {
     -webkit-animation: jello-horizontal 1s 0.8s both;
     animation: jello-horizontal 1s 0.8s both;
@@ -1644,6 +1657,9 @@ hr {
 
   .h1aboutname {
     font-size: 4rem;
+  }
+  .h2aboutwork {
+    padding-top: 11rem;
   }
 
   .abouttext {
