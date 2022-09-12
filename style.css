@@ -2,8 +2,8 @@ html {
   scroll-behavior: smooth;
   display: table;
   width: 100%;
-  -ms-content-zooming: none;
-  -ms-touch-action: pan-x pan-y;
+  -ms-content-zooming:none;
+  -ms-touch-action : pan-x pan-y;
 }
 
 *,
