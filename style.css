@@ -2,8 +2,8 @@ html {
   scroll-behavior: smooth;
   display: table;
   width: 100%;
-  -ms-content-zooming:none;
-  -ms-touch-action : pan-x pan-y;
+  -ms-content-zooming: none;
+  -ms-touch-action: pan-x pan-y;
 }
 
 *,
@@ -290,6 +290,9 @@ p span {
   to {
     opacity: 1;
   }
+}
+.button i{
+  font-size: 1.5rem;
 }
 
 .resume {
@@ -614,9 +617,10 @@ hr {
 }
 
 /*description tecnology*/
-.stacks{
+.stacks {
   padding-top: 20px;
 }
+
 .stacks p {
   color: white;
   font-size: 1.1rem;
@@ -813,8 +817,8 @@ hr {
 
   .button {
     border-radius: 5px;
-    padding: 10px 30px;
-    font-size: 30px;
+    padding: 10px 15px;
+    font-size: 20px;
     margin: 4px;
   }
 
@@ -1032,6 +1036,7 @@ hr {
     border-radius: 0px 0px 10px 10px;
     transition: ease 0.5s;
   }
+
   .slide-top {
     width: 21rem;
     transition: ease 1s;
@@ -1143,6 +1148,7 @@ hr {
     color: #db9b076e;
     position: relative;
   }
+
   .h2aboutwork {
     padding-top: 11rem;
   }
@@ -1225,6 +1231,7 @@ hr {
     border-radius: 10px 10px 10px 10px;
     transition: ease 0.9s;
   }
+
   .slide-top {
     width: 25rem;
   }
@@ -1257,7 +1264,8 @@ hr {
   .h1aboutname {
     font-size: 4rem;
   }
-    .h2aboutwork {
+
+  .h2aboutwork {
     padding-top: 12rem;
   }
 
@@ -1358,6 +1366,7 @@ hr {
     border-radius: 10px 10px 10px 10px;
     transition: ease 0.9s;
   }
+
   .slide-top {
     width: 25rem;
   }
@@ -1390,6 +1399,7 @@ hr {
   .h1aboutname {
     font-size: 4rem;
   }
+
   .h2aboutwork {
     padding-top: 13rem;
   }
@@ -1499,6 +1509,7 @@ hr {
   .slide-top {
     width: 30rem;
   }
+
   /* social icon*/
   .social-logo {
     padding-top: 3rem;
@@ -1531,6 +1542,7 @@ hr {
   .h2aboutwork {
     padding-top: 13rem;
   }
+
   .abouttext {
     -webkit-animation: jello-horizontal 1s 0.8s both;
     animation: jello-horizontal 1s 0.8s both;
@@ -1587,6 +1599,7 @@ hr {
     font-size: 2rem;
   }
 }
+
 @media screen and (max-width: 3001px) and (min-width: 2001px) {
   nav {
     text-align: center;
@@ -1625,14 +1638,16 @@ hr {
   }
 
   .hoverlink1:hover {
-   padding: 1.8rem;
+    padding: 1.8rem;
     border-bottom: solid #db9b07;
     border-radius: 20px 20px;
     transition: ease 0.9s;
   }
+
   .slide-top {
     width: 35rem;
   }
+
   /* social icon*/
   .social-logo {
     padding-top: 3rem;
@@ -1661,6 +1676,7 @@ hr {
   .h1aboutname {
     font-size: 4rem;
   }
+
   .h2aboutwork {
     padding-top: 11rem;
   }
