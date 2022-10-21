@@ -20,7 +20,10 @@ body {
   background-color: #1f1f20;
   overflow-x: hidden;
 }
-
+section{
+  max-width: 3001px;
+  margin: auto;
+}
 a {
   text-decoration: none;
 }
@@ -1743,7 +1746,7 @@ hr {
 
   /* about img */
   .imgabout {
-    width: 16%;
+    width: 14%;
   }
 
   /* about me descriprion h2 */
@@ -1809,7 +1812,7 @@ hr {
   .example {
     position: absolute;
     top: 150px;
-    left: 35rem;
+    left: 25%;
     padding: 15px;
     width: 45%;
   }
