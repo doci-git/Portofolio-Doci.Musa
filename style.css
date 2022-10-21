@@ -291,7 +291,8 @@ p span {
     opacity: 1;
   }
 }
-.button i{
+
+.button i {
   font-size: 1.5rem;
 }
 
@@ -1246,9 +1247,13 @@ hr {
   /* about me txt */
   .abouttext {
     margin-left: 1.8rem;
-    font-size: 6rem;
+    font-size: 6.2rem;
     color: #db9b076e;
     position: relative;
+  }
+
+  .abouthomepage {
+    font-size: 25px;
   }
 
   /* about img */
@@ -1275,20 +1280,35 @@ hr {
   }
 
   .about-me {
+    font-size: 25px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
 
   .about-me1 {
+    font-size: 25px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
 
+  .button {
+    width: 30%;
+    padding: 10px;
+  }
+
   .worktext {
     font-size: 5rem;
     margin-bottom: 5rem;
+  }
+
+  .stacks p {
+    font-size: 25px;
+  }
+
+  .skills p {
+    font-size: 25px;
   }
 
   .contacttext {
@@ -1312,7 +1332,7 @@ hr {
   }
 
   .example i {
-    font-size: 2.1rem;
+    font-size: 2.0rem;
     padding: 15px;
     padding-top: 45px;
   }
@@ -1378,6 +1398,10 @@ hr {
     font-size: 1.5rem;
   }
 
+  .abouthomepage {
+    font-size: 25px;
+  }
+
   /* about me txt */
   .abouttext {
     margin-left: 1.8rem;
@@ -1391,6 +1415,19 @@ hr {
     width: 20%;
   }
 
+  .button {
+    width: 30%;
+    padding: 10px;
+  }
+
+  .about-me {
+    font-size: 25px;
+  }
+
+  .about-me1 {
+    font-size: 25px;
+  }
+
   /* about me descriprion h2 */
   .h2aboutname {
     font-size: 3rem;
@@ -1402,6 +1439,12 @@ hr {
 
   .h2aboutwork {
     padding-top: 13rem;
+  }
+  .skills p {
+    font-size: 28px;
+  }
+  .stacks p {
+    font-size: 25px;
   }
 
   .abouttext {
@@ -1447,7 +1490,7 @@ hr {
   }
 
   .example i {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     padding: 15px;
     padding-top: 45px;
   }
@@ -1516,6 +1559,9 @@ hr {
     padding-left: 5rem;
     font-size: 1.8rem;
   }
+  .abouthomepage {
+    font-size: 25px;
+  }
 
   /* about me txt */
   .abouttext {
@@ -1527,7 +1573,7 @@ hr {
 
   /* about img */
   .imgabout {
-    width: 18%;
+    width: 16%;
   }
 
   /* about me descriprion h2 */
@@ -1541,6 +1587,18 @@ hr {
 
   .h2aboutwork {
     padding-top: 13rem;
+  }
+  .button {
+    width: 30%;
+    padding: 10px;
+  }
+
+  .about-me {
+    font-size: 25px;
+  }
+
+  .about-me1 {
+    font-size: 25px;
   }
 
   .abouttext {
@@ -1564,6 +1622,18 @@ hr {
     font-size: 5rem;
     margin-bottom: 5rem;
   }
+  .skills p {
+    font-size: 28px;
+  }
+  .stacks p {
+    font-size: 25px;
+  }
+  .btn {
+    font-size: 20px;
+    padding: 15px 25px;
+  }
+  
+
 
   .contacttext {
     font-size: 5rem;
@@ -1580,13 +1650,13 @@ hr {
   .example {
     position: absolute;
     top: 110px;
-    left: 27rem;
+    left: 27.9rem;
     padding: 15px;
     width: 45%;
   }
 
   .example i {
-    font-size: 2.1rem;
+    font-size: 2.9rem;
     padding: 15px;
     padding-top: 45px;
   }
@@ -1645,7 +1715,7 @@ hr {
   }
 
   .slide-top {
-    width: 35rem;
+    width: 30rem;
   }
 
   /* social icon*/
@@ -1654,6 +1724,14 @@ hr {
     padding-left: 8rem;
     font-size: 1.8rem;
   }
+  .abouthomepage {
+    font-size: 25px;
+  }
+  .button {
+    width: 20%;
+    padding: 10px;
+  }
+
 
   /* about me txt */
   .abouttext {
@@ -1665,7 +1743,7 @@ hr {
 
   /* about img */
   .imgabout {
-    width: 18%;
+    width: 16%;
   }
 
   /* about me descriprion h2 */
@@ -1687,15 +1765,23 @@ hr {
   }
 
   .about-me {
+    font-size: 25px;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
   }
 
   .about-me1 {
+    font-size: 25px;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+  }
+  .skills p {
+    font-size: 28px;
+  }
+  .stacks p {
+    font-size: 25px;
   }
 
   .worktext {
@@ -1706,6 +1792,11 @@ hr {
   .contacttext {
     font-size: 5rem;
   }
+  
+.btn {
+  font-size: 20px;
+  padding: 15px 25px;
+}
 
   .cellimage {
     display: none;
@@ -1724,7 +1815,7 @@ hr {
   }
 
   .example i {
-    font-size: 2.1rem;
+    font-size: 2.7rem;
     padding: 15px;
     padding-top: 45px;
   }
@@ -1735,6 +1826,7 @@ hr {
 
   .footer p {
     font-size: 2rem;
+    padding-bottom: 50px;
   }
 
 }
