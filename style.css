@@ -1518,7 +1518,7 @@ hr {
     .nav-container1 {
         justify-content: left;
         box-shadow: rgb(2 2 2) 0px 0px 20px 1px;
-        padding: 2.4rem;
+        padding: 2rem;
     }
 
     .nav-btn {
@@ -1537,7 +1537,7 @@ hr {
     /*link style mobile view*/
     .hoverlink1 {
         padding: 1.9rem;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         text-decoration: none;
         color: white;
     }
@@ -1681,7 +1681,7 @@ hr {
     .nav-container1 {
         justify-content: left;
         box-shadow: rgb(2 2 2) 0px 0px 20px 1px;
-        padding: 2.4rem;
+        padding: 2rem;
     }
 
     .nav-btn {
@@ -1700,7 +1700,7 @@ hr {
     /*link style mobile view*/
     .hoverlink1 {
         padding: 2rem;
-        font-size: 2.2rem;
+        font-size: 1.8rem;
         text-decoration: none;
         color: white;
     }
