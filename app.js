@@ -1,12 +1,11 @@
 //preloader
-const preloader = document.querySelector('.preloader');
-window.addEventListener('load', function () {
-    preloader.classList.add('hidepreloader')
+const preloader = document.querySelector(".preloader");
+window.addEventListener("load", function () {
+    preloader.classList.add("hidepreloader");
 });
 
-
 //load style button
-const linkHover = document.querySelectorAll('.nav-btn');
+const linkHover = document.querySelectorAll(".nav-btn");
 
 linkHover.forEach(function (question) {
     const btn = question.querySelector(".hoverlink");
@@ -19,13 +18,12 @@ linkHover.forEach(function (question) {
             } else {
                 item.classList.add("active");
             }
-
         });
     });
 });
 
 //select section
-let divs = ['section1', 'section2', 'section3', 'section4'];
+let divs = ["section1", "section2", "section3", "section4"];
 let visibleId = null;
 
 function show(id) {
@@ -33,7 +31,7 @@ function show(id) {
         visibleId = id;
     }
     hide();
-};
+}
 
 function hide() {
     let div, i, id;
@@ -41,30 +39,29 @@ function hide() {
         id = divs[i];
         div = document.getElementById(id);
         if (visibleId === id) {
-            div.style.display = 'block';
+            div.style.display = "block";
         } else {
-            div.style.display = 'none';
+            div.style.display = "none";
         }
     }
-};
+}
 
 // image rotate
-const imgContainer = document.querySelector('.image-container');
-const prev = document.getElementById('prev');
-const next = document.getElementById('next');
+const imgContainer = document.querySelector(".image-container");
+const prev = document.getElementById("prev");
+const next = document.getElementById("next");
 let x = 0;
 let times;
 
-
-prev.addEventListener('click', function () {
+prev.addEventListener("click", function () {
     x = x + 45;
-    clearTimeout(times)
-    updategalery()
+    clearTimeout(times);
+    updategalery();
 });
-next.addEventListener('click', function () {
+next.addEventListener("click", function () {
     x = x - 45;
-    clearTimeout(times)
-    updategalery()
+    clearTimeout(times);
+    updategalery();
 });
 
 function updategalery() {
@@ -75,4 +72,3 @@ function updategalery() {
     }, 5000);
 }
 updategalery();
-
