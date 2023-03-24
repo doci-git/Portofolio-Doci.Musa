@@ -3,18 +3,41 @@ const preloader = document.querySelector(".preloader");
 window.addEventListener("load", function () {
     preloader.classList.add("hidepreloader");
 });
+//load style button
+const linkHover = document.querySelectorAll(".nav-btn");
 
-// Get all elements with class="nav-link"
-let navLinks = document.getElementsByClassName("nav-btn1");
+linkHover.forEach(function (question) {
+    const btn = question.querySelector(".hoverlink");
+    // console.log(btn);
 
-// Loop through the nav-links and add the active class
-for (let i = 0; i < navLinks.length; i++) {
-    navLinks[i].addEventListener("click", function () {
-        let current = document.getElementsByClassName("active1");
-        current[0].className = current[0].className.replace(" active1", "");
-        this.className += " active1";
+    btn.addEventListener("click", function () {
+        linkHover.forEach(function (item) {
+            if (item !== question) {
+                item.classList.remove("active");
+            } else {
+                item.classList.add("active");
+            }
+        });
     });
-}
+});
+
+//load style button
+const linkHover1 = document.querySelectorAll(".nav-btn1");
+
+linkHover1.forEach(function (question) {
+    const btn1 = question.querySelector(".hoverlink1");
+    // console.log(btn);
+
+    btn1.addEventListener("click", function () {
+        linkHover1.forEach(function (item) {
+            if (item !== question) {
+                item.classList.remove("active1");
+            } else {
+                item.classList.add("active1");
+            }
+        });
+    });
+});
 
 //select section
 let divs = ["section1", "section2", "section3", "section4"];
