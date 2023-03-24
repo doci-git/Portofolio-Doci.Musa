@@ -1127,8 +1127,12 @@ hr {
         text-decoration: none;
         color: white;
     }
-
     .hoverlink1:hover {
+        color: #db9b0750;
+        transition: ease 0.9s;
+    }
+
+    .active1 .hoverlink1 {
         padding: 1.9rem;
         border-bottom: solid #db9b07;
         border-radius: 10px 10px 10px 10px;
@@ -1228,8 +1232,12 @@ hr {
         text-decoration: none;
         color: white;
     }
-
     .hoverlink1:hover {
+        color: #db9b0750;
+        transition: ease 0.9s;
+    }
+
+    .active1 .hoverlink1 {
         padding: 2rem;
         border-bottom: solid #db9b07;
         border-radius: 10px 10px 10px 10px;
@@ -1380,8 +1388,12 @@ hr {
         text-decoration: none;
         color: white;
     }
-
     .hoverlink1:hover {
+        color: #db9b0750;
+        transition: ease 0.9s;
+    }
+
+    .active1 .hoverlink1 {
         padding: 2rem;
         border-bottom: solid #db9b07;
         border-radius: 10px 10px 10px 10px;
@@ -1540,6 +1552,10 @@ hr {
         font-size: 1.6rem;
         text-decoration: none;
         color: white;
+    }
+    .hoverlink1:hover {
+        color: #db9b0750;
+        transition: ease 0.9s;
     }
 
     .active1 .hoverlink1 {
@@ -1704,8 +1720,12 @@ hr {
         text-decoration: none;
         color: white;
     }
-
     .hoverlink1:hover {
+        color: #db9b0750;
+        transition: ease 0.9s;
+    }
+
+    .active1 .hoverlink1 {
         padding: 1.8rem;
         border-bottom: solid #db9b07;
         border-radius: 20px 20px;
