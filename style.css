@@ -104,6 +104,10 @@ nav {
     font-size: 1.5rem;
     display: flex;
 }
+.social-logo:hover {
+    transform: scale(1.2);
+    transition: ease 0.9s;
+}
 
 /*social logo animation*/
 .l1 {
