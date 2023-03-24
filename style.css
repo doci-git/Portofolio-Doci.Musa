@@ -1542,7 +1542,7 @@ hr {
         color: white;
     }
 
-    .hoverlink1:hover {
+    .active1 .hoverlink1 {
         padding: 2rem;
         border-bottom: solid #db9b07;
         border-radius: 10px 10px 10px 10px;

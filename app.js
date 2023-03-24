@@ -4,23 +4,17 @@ window.addEventListener("load", function () {
     preloader.classList.add("hidepreloader");
 });
 
-//load style button
-const linkHover = document.querySelectorAll(".nav-btn");
+// Get all elements with class="nav-link"
+let navLinks = document.getElementsByClassName("nav-btn1");
 
-linkHover.forEach(function (question) {
-    const btn = question.querySelector(".hoverlink");
-    // console.log(btn);
-
-    btn.addEventListener("click", function () {
-        linkHover.forEach(function (item) {
-            if (item !== question) {
-                item.classList.remove("active");
-            } else {
-                item.classList.add("active");
-            }
-        });
+// Loop through the nav-links and add the active class
+for (let i = 0; i < navLinks.length; i++) {
+    navLinks[i].addEventListener("click", function () {
+        let current = document.getElementsByClassName("active1");
+        current[0].className = current[0].className.replace(" active1", "");
+        this.className += " active1";
     });
-});
+}
 
 //select section
 let divs = ["section1", "section2", "section3", "section4"];
