@@ -1,282 +1,286 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-        />
-        <link rel="stylesheet" href="style.css" />
-        <meta name="description" content="Portofoglio" />
-        <title>Portofolio Doci Musa</title>
-        <script
-            src="https://kit.fontawesome.com/aa7a81e6d4.js"
-            crossorigin="anonymous"
-        ></script>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="description" content="Portofoglio" />
+    <title>Portofolio Doci Musa</title>
+    <script
+      src="https://kit.fontawesome.com/aa7a81e6d4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-    <body>
-        <!--preloader-->
-        <div class="preloader">
-            <img src="image/300.gif" class="preloading" alt="gif" />
+  <body>
+    <!--preloader-->
+    <div class="preloader">
+      <img src="image/300.gif" class="preloading" alt="gif" />
+    </div>
+    <!--end preloader-->
+
+    <!--nav-->
+    <nav>
+      <div class="nav-container">
+        <button class="nav-btn active">
+          <a href="#" onclick="show('section1');" class="hoverlink"
+            ><i class="fa-solid fa-house-user"></i
+          ></a>
+        </button>
+        <button class="nav-btn">
+          <a href="#" onclick="show('section2');" class="hoverlink"
+            ><i class="fa-solid fa-user"></i
+          ></a>
+        </button>
+        <button class="nav-btn">
+          <a href="#" onclick="show('section3');" class="hoverlink"
+            ><i class="fa-solid fa-briefcase"></i
+          ></a>
+        </button>
+        <button class="nav-btn">
+          <a href="#" onclick="show('section4');" class="hoverlink"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+        </button>
+      </div>
+      <div class="nav-container1">
+        <button class="nav-btn1 active1">
+          <a href="#" onclick="show('section1');" class="hoverlink1"> Home</a>
+        </button>
+        <button class="nav-btn1">
+          <a href="#" onclick="show('section2');" class="hoverlink1">About</a>
+        </button>
+        <button class="nav-btn1">
+          <a href="#" onclick="show('section3');" class="hoverlink1">Work</a>
+        </button>
+        <button class="nav-btn1">
+          <a href="#" onclick="show('section4');" class="hoverlink1">Contact</a>
+        </button>
+      </div>
+    </nav>
+    <!--social icons-->
+    <section id="section1" class="section1">
+      <div class="social">
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/musa-doci/"
+            class="social-logo l1"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a
+            href="https://api.whatsapp.com/send?phone=+393898883634&text=ciao!"
+            class="social-logo l2"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+          <a href="https://www.instagram.com/musa_doci/" class="social-logo l3">
+            <i class="fa-brands fa-instagram"></i
+          ></a>
         </div>
-        <!--end preloader-->
 
-        <!--nav-->
-        <nav>
-            <div class="nav-container">
-                <button class="nav-btn active">
-                    <a href="#" onclick="show('section1');" class="hoverlink"
-                        ><i class="fa-solid fa-house-user"></i
-                    ></a>
-                </button>
-                <button class="nav-btn">
-                    <a href="#" onclick="show('section2');" class="hoverlink"
-                        ><i class="fa-solid fa-user"></i
-                    ></a>
-                </button>
-                <button class="nav-btn">
-                    <a href="#" onclick="show('section3');" class="hoverlink"
-                        ><i class="fa-solid fa-briefcase"></i
-                    ></a>
-                </button>
-                <button class="nav-btn">
-                    <a href="#" onclick="show('section4');" class="hoverlink"
-                        ><i class="fa-solid fa-envelope"></i
-                    ></a>
-                </button>
-            </div>
-            <div class="nav-container1">
-                <button class="nav-btn1 active1">
-                    <a href="#" onclick="show('section1');" class="hoverlink1"> Home</a>
-                </button>
-                <button class="nav-btn1">
-                    <a href="#" onclick="show('section2');" class="hoverlink1">About</a>
-                </button>
-                <button class="nav-btn1">
-                    <a href="#" onclick="show('section3');" class="hoverlink1">Work</a>
-                </button>
-                <button class="nav-btn1">
-                    <a href="#" onclick="show('section4');" class="hoverlink1">Contact</a>
-                </button>
-            </div>
-        </nav>
-        <!--social icons-->
-        <section id="section1" class="section1">
-            <div class="social">
-                <div class="social-links">
-                    <a
-                        href="https://www.linkedin.com/in/musa-doci/"
-                        class="social-logo l1"
-                        ><i class="fa-brands fa-linkedin-in"></i
-                    ></a>
-                    <a
-                        href="https://api.whatsapp.com/send?phone=+393898883634&text=ciao!"
-                        class="social-logo l2"
-                        ><i class="fa-brands fa-whatsapp"></i
-                    ></a>
-                    <a href="https://www.instagram.com/musa_doci/" class="social-logo l3">
-                        <i class="fa-brands fa-instagram"></i
-                    ></a>
-                </div>
+        <div class="logo1">
+          <img src="image/prova.png" class="slide-top" alt="woking-place" />
+        </div>
+      </div>
+      <br />
+      <!--text homepage-->
+      <div class="animated-text">
+        <h1 id="hai">Hi, i'm <span>Musa</span></h1>
 
-                <div class="logo1">
-                    <img src="image/prova.png" class="slide-top" alt="woking-place" />
-                </div>
-            </div>
-            <br />
-            <!--text homepage-->
-            <div class="animated-text">
-                <h1 id="hai">Hi, i'm <span>Musa</span></h1>
+        <h1 class="h2"><span>-</span> web developer <span>-</span></h1>
+        <p class="abouthomepage">
+          <span>{</span> i love to make useful stuff and make people's life
+          easier<span> }</span>
+        </p>
+      </div>
+      <!--cv homepage-->
+      <div class="cv">
+        <button class="button button1">
+          <i class="fa-regular fa-file"
+            ><a href="resume/resume-Doci-Musa.pdf" download class="resume"
+              >Dowload CV</a
+            ></i
+          >
+        </button>
+      </div>
+    </section>
 
-                <h1 class="h2"><span>-</span> web developer <span>-</span></h1>
-                <p class="abouthomepage">
-                    <span>{</span> i love to make useful stuff and make people's life
-                    easier<span> }</span>
-                </p>
-            </div>
-            <!--cv homepage-->
-            <div class="cv">
-                <button class="button button1">
-                    <i class="fa-regular fa-file"
-                        ><a href="resume/resume-Doci-Musa.pdf" download class="resume"
-                            >Dowload CV</a
-                        ></i
-                    >
-                </button>
-            </div>
-        </section>
+    <section id="section2" style="display: none" class="section1">
+      <div class="about">
+        <h1 class="abouttext">About Me</h1>
+        <img class="imgabout" src="image/musa1.png" alt="me" />
+      </div>
+      <!--text homepage-->
+      <div class="animated-text2">
+        <h2 class="h2aboutname">My name is...</h2>
+        <h1 class="h1aboutname"><span>M</span>usa <span>D</span>oci</h1>
 
-        <section id="section2" style="display: none" class="section1">
-            <div class="about">
-                <h1 class="abouttext">About Me</h1>
-                <img class="imgabout" src="image/musa1.png" alt="me" />
-            </div>
-            <!--text homepage-->
-            <div class="animated-text2">
-                <h2 class="h2aboutname">My name is...</h2>
-                <h1 class="h1aboutname"><span>M</span>usa <span>D</span>oci</h1>
+        <p class="about-me">
+          I'm a Web Developer, I decided to reinvent myself and follow my
+          passion, thus I became an enthusiastic, self-taught web developer. I
+          am constantly learning, trying to improve my developing skills and
+          always looking for new challenges.
+        </p>
+        <p class="about-me1">
+          wanna know more ? Drop a message and lets have a coffee
+        </p>
+      </div>
+      <div class="cv">
+        <button class="button button1">
+          <i class="fa-regular fa-envelope-open"
+            ><a href="mailto:docimusa@gmail.com" class="mail">Contact Me</a></i
+          >
+        </button>
+      </div>
+    </section>
 
-                <p class="about-me">
-                    I'm a Web Developer, I decided to reinvent myself and follow my
-                    passion, thus I became an enthusiastic, self-taught web developer. I
-                    am constantly learning, trying to improve my developing skills and
-                    always looking for new challenges.
-                </p>
-                <p class="about-me1">
-                    wanna know more ? Drop a message and lets have a coffee
-                </p>
-            </div>
-            <div class="cv">
-                <button class="button button1">
-                    <i class="fa-regular fa-envelope-open"
-                        ><a href="mailto:docimusa@gmail.com" class="mail"
-                            >Contact Me</a
-                        ></i
-                    >
-                </button>
-            </div>
-        </section>
+    <!--section project-->
 
-        <!--section project-->
+    <section id="section3" style="display: none" class="section1">
+      <div class="about">
+        <h1 class="worktext">My Projects</h1>
+      </div>
+      <div class="image-container">
+        <span style="--i: 1">
+          <a href="https://github.com/doci-git/A-B_Neri-project">code</a>
+          <hr />
+          <a href=" https://doci-git.github.io/A-B_Neri-project/">live</a>
+          <img src="foto-projects/ab-neri.jpg" alt="projet1" />
+          <p class="about-project">AB_Neri</p>
+        </span>
+        <span style="--i: 2">
+          <a href="https://github.com/doci-git/Gioco-Dadi-version2">code</a>
+          <hr />
+          <a href="https://doci-git.github.io/Gioco-Dadi-version2/ ">live</a>
+          <img src="foto-projects/dice-game1.jpg" alt="projet2" />
+          <p class="about-project">Dice_Game</p>
+        </span>
+        <span style="--i: 3">
+          <a
+            href="https://github.com/doci-git/csv-Nasa-Surface-Temperature-Analysis"
+            class="sur"
+            >code</a
+          >
+          <hr />
+          <a
+            href="https://doci-git.github.io/csv-Nasa-Surface-Temperature-Analysis/"
+            class="sur"
+            >live</a
+          >
+          <img src="foto-projects/global-temp.jpg" alt="projet3" />
+          <p class="about-project">Surface_Temperature</p>
+        </span>
+        <span style="--i: 4">
+          <a href="https://github.com/doci-git/Barber-shop">code</a>
+          <hr />
+          <a href="https://doci-git.github.io/Barber-shop/ ">live</a>
+          <img src="foto-projects/barber-shop.jpg" alt="projet4" />
+          <p class="about-project">Barber_Shop</p>
+        </span>
+        <span style="--i: 5">
+          <a href="https://github.com/doci-git/almi.2.0" class="sur">code</a>
+          <hr />
+          <a href="https://doci-git.github.io/almi.2.0/" class="sur">live</a>
+          <img src="foto-projects/almi.jpeg" alt="projet5" />
+          <p class="about-project">Almi-srls</p>
+        </span>
+        <span style="--i: 6">
+          <a
+            style="color: aliceblue"
+            href="https://github.com/doci-git/NEST.EGG-CAFE"
+            >code</a
+          >
+          <hr />
+          <a
+            style="color: aliceblue"
+            href="https://doci-git.github.io/NEST.EGG-CAFE/"
+            >live</a
+          >
+          <img src="/foto-projects/nest-egg.jpeg" alt="projet6" />
+          <p class="about-project">The Nest Egg Cafe</p>
+        </span>
+        <span style="--i: 7">
+          <a href="#">code</a>
+          <hr />
+          <a href="#">live</a>
+          <img src="https://picsum.photos/id/6/300/200" alt="projet7" />
+          <p class="about-project">Coming-Soon</p>
+        </span>
+        <span style="--i: 8">
+          <a href="#">code</a>
+          <hr />
+          <a href="#">live</a>
+          <img src="https://picsum.photos/id/6/300/200" alt="projet7" />
+          <p class="about-project">Coming-Soon</p>
+        </span>
+      </div>
+      <div class="btn-continer">
+        <button class="btn" id="prev">prev</button>
+        <button class="btn" id="next">next</button>
+      </div>
 
-        <section id="section3" style="display: none" class="section1">
-            <div class="about">
-                <h1 class="worktext">My Projects</h1>
-            </div>
-            <div class="image-container">
-                <span style="--i: 1">
-                    <a href="https://github.com/doci-git/A-B_Neri-project">code</a>
-                    <hr />
-                    <a href=" https://doci-git.github.io/A-B_Neri-project/">live</a>
-                    <img src="foto-projects/ab-neri.jpg" alt="projet1" />
-                    <p class="about-project">AB_Neri</p>
-                </span>
-                <span style="--i: 2">
-                    <a href="https://github.com/doci-git/Gioco-Dadi-version2">code</a>
-                    <hr />
-                    <a href="https://doci-git.github.io/Gioco-Dadi-version2/ ">live</a>
-                    <img src="foto-projects/dice-game1.jpg" alt="projet2" />
-                    <p class="about-project">Dice_Game</p>
-                </span>
-                <span style="--i: 3">
-                    <a
-                        href="https://github.com/doci-git/csv-Nasa-Surface-Temperature-Analysis"
-                        class="sur"
-                        >code</a
-                    >
-                    <hr />
-                    <a
-                        href="https://doci-git.github.io/csv-Nasa-Surface-Temperature-Analysis/"
-                        class="sur"
-                        >live</a
-                    >
-                    <img src="foto-projects/global-temp.jpg" alt="projet3" />
-                    <p class="about-project">Surface_Temperature</p>
-                </span>
-                <span style="--i: 4">
-                    <a href="https://github.com/doci-git/Barber-shop">code</a>
-                    <hr />
-                    <a href="https://doci-git.github.io/Barber-shop/ ">live</a>
-                    <img src="foto-projects/barber-shop.jpg" alt="projet4" />
-                    <p class="about-project">Barber_Shop</p>
-                </span>
-                <span style="--i: 5">
-                    <a href="https://github.com/doci-git/almi.2.0"
-                    class="sur">code</a>
-                    <hr />
-                    <a href="https://doci-git.github.io/almi.2.0/"
-                    class="sur">live</a>
-                    <img src="foto-projects/almi.jpeg" alt="projet5" />
-                    <p class="about-project">Almi-srls</p>
-                </span>
-                <span style="--i: 6">
-                    <a style="color: aliceblue;" href="https://github.com/doci-git/NEST.EGG-CAFE">code</a>
-                    <hr />
-                    <a style="color: aliceblue;" href="https://doci-git.github.io/NEST.EGG-CAFE/">live</a>
-                    <img src="/foto-projects/nest-egg.jpeg" alt="projet6" />
-                    <p class="about-project">The Nest Egg Cafe</p>
-                </span>
-                <span style="--i: 7">
-                    <a href="#">code</a>
-                    <hr />
-                    <a href="#">live</a>
-                    <img src="https://picsum.photos/id/6/300/200" alt="projet7" />
-                    <p class="about-project">Coming-Soon</p>
-                </span>
-                <span style="--i: 8">
-                    <a href="#">code</a>
-                    <hr />
-                    <a href="#">live</a>
-                    <img src="https://picsum.photos/id/6/300/200" alt="projet7" />
-                    <p class="about-project">Coming-Soon</p>
-                </span>
-            </div>
-            <div class="btn-continer">
-                <button class="btn" id="prev">prev</button>
-                <button class="btn" id="next">next</button>
-            </div>
+      <div class="stacks">
+        <h2 class="h2aboutwork">Skills and Technologies</h2>
+        <p>Learned and deployed Websites and WebApps with these Tecnologyes</p>
+      </div>
 
-            <div class="stacks">
-                <h2 class="h2aboutwork">Skills and Technologies</h2>
-                <p>Learned and deployed Websites and WebApps with these Tecnologyes</p>
-            </div>
+      <div class="skills">
+        <i class="fa-brands fa-html5"></i>
 
-            <div class="skills">
-                <i class="fa-brands fa-html5"></i>
+        <i class="fa-brands fa-css3-alt"></i>
 
-                <i class="fa-brands fa-css3-alt"></i>
+        <i class="fa-brands fa-bootstrap"></i>
 
-                <i class="fa-brands fa-bootstrap"></i>
+        <i class="fa-brands fa-js"></i>
+        <i class="fa-brands fa-react"></i>
+        <p>Tools</p>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-git-alt"></i>
+        <i class="fa-brands fa-figma"></i>
+      </div>
+    </section>
 
-                <i class="fa-brands fa-js"></i>
-                <i class="fa-brands fa-react"></i>
-                <p>Tools</p> 
-                <i class="fa-brands fa-github"></i>
-                <i class="fa-brands fa-git-alt"></i>
-                <i class="fa-brands fa-figma"></i>
-            </div>
-        </section>
+    <!--section 4 conttati-->
+    <section id="section4" style="display: none" class="section1">
+      <div class="about">
+        <h1 class="contacttext">Contact Me</h1>
+      </div>
+      <div class="contacticon">
+        <img class="cellimage" src="image/cell.png" alt="cell" />
+        <img class="pcimage" src="image/pc1.png" alt="pc" />
+        <div class="example">
+          <a href="https://api.whatsapp.com/send?phone=+393898883634&text=ciao!"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+          <a href="https://www.instagram.com/musa_doci/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/musa-doci/"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="mailto:docimusa@gmail.com"
+            ><i class="fa-solid fa-envelope-open"></i
+          ></a>
+          <a href="https://github.com/doci-git"
+            ><i class="fa-brands fa-github"></i
+          ></a>
 
-        <!--section 4 conttati-->
-        <section id="section4" style="display: none" class="section1">
-            <div class="about">
-                <h1 class="contacttext">Contact Me</h1>
-            </div>
-            <div class="contacticon">
-                <img class="cellimage" src="image/cell.png" alt="cell" />
-                <img class="pcimage" src="image/pc1.png" alt="pc" />
-                <div class="example">
-                    <a href="https://api.whatsapp.com/send?phone=+393898883634&text=ciao!"
-                        ><i class="fa-brands fa-whatsapp"></i
-                    ></a>
-                    <a href="https://www.instagram.com/musa_doci/"
-                        ><i class="fa-brands fa-instagram"></i
-                    ></a>
-                    <a href="https://www.linkedin.com/in/musa-doci/"
-                        ><i class="fa-brands fa-linkedin-in"></i
-                    ></a>
-                    <a href="mailto:docimusa@gmail.com"
-                        ><i class="fa-solid fa-envelope-open"></i
-                    ></a>
-                    <a href="https://github.com/doci-git"
-                        ><i class="fa-brands fa-github"></i
-                    ></a>
+          <p>© Copyright all right Reserved</p>
+        </div>
+      </div>
 
-                    <p>© Copyright all right Reserved</p>
-                </div>
-            </div>
+      <div class="footer">
+        <p>
+          Feel free to get in touch at any time... <br />
+          <span> Thanks </span>for passing by!
+        </p>
+      </div>
+    </section>
+    <br />
 
-            <div class="footer">
-                <p>
-                    Feel free to get in touch at any time... <br />
-                    <span> Thanks </span>for passing by!
-                </p>
-            </div>
-        </section>
-        <br>
-
-        <script src="app.js"></script>
-    </body>
+    <script src="app.js"></script>
+  </body>
 </html>
